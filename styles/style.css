@@ -60,7 +60,7 @@ ol {
 .search-form {
     display: flex;
     justify-content: flex-start;
-    gap: 30px;
+    gap: 33px;
 }
 
 .content__list {
@@ -114,7 +114,6 @@ ol {
     display: grid;
     border: none;
     gap: 5px;
-    padding-left: 6px;
 }
 
 .search-form__fieldset:focus {
@@ -299,7 +298,6 @@ ol {
     padding: 6px 0;
     background-color: transparent;
     cursor: pointer;
-    margin-left: 13px;
 }
 
 .button:hover {

@@ -114,6 +114,7 @@ ol {
     display: grid;
     border: none;
     gap: 5px;
+    padding-left: 6px;
 }
 
 .search-form__fieldset:focus {
@@ -121,10 +122,11 @@ ol {
 }
 
 .search-form__fieldset-title {
-    font-family: "Fira Sans Condensed", sans-serif;
-    font-size: 18px;
-    line-height: 21.6px;
-    font-weight: 400;
+   font-family: 'Fira Sans Condensed', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-overflow: ellipsis;
+  
 }
 
 .search-form__label {
@@ -183,13 +185,11 @@ ol {
 }
 
 .search-form__pseudo-checkbox {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    block-size: 19px;
+    margin-bottom: 3px;
     inline-size: 19px;
-    border: 1px solid #fff;
+    block-size: 19px;
+    border: solid 1px #fff;
+    cursor: pointer;
 }
 
 .search-form__pseudo-checkbox::after {
@@ -299,6 +299,7 @@ ol {
     padding: 6px 0;
     background-color: transparent;
     cursor: pointer;
+    margin-left: 13px;
 }
 
 .button:hover {

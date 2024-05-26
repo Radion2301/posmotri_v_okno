@@ -196,8 +196,8 @@ ol {
     content: "";
     display: flex;
     background-color: transparent;
-    block-size: 15px;
-    inline-size: 15px;
+    block-size: 17px;
+    inline-size: 17px;
 }
 
 .search-form__checkbox:checked+.search-form__pseudo-checkbox::after {
